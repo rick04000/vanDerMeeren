@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administratiekantoor van der Meeren - Boekhouding en Fiscaal Advies</title>
+    <meta name="description" content="Administratiekantoor van der Meeren is een kleinschalig familiebedrijf dat zich richt op bedrijven en particulieren met alle planning, boekhouding en fiscaal advies.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Custom CSS (we'll create this later) -->
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <!-- Header en Navigatie -->
+    <header class="header">
+        <div class="container">
+            <div class="header__content">
+                <div class="header__logo">
+                    <a href="/">
+                        <h1>Administratiekantoor<span> van der Meeren</span></h1>
+                        <p class="header__tagline">Boekhouding en Fiscaal Advies</p>
+                    </a>
+                </div>
+                <nav class="header__nav">
+                    <ul class="header__menu">
+                        <li><a href="#home" class="active">Home</a></li>
+                        <li><a href="#over-ons">Over Ons</a></li>
+                        <li><a href="#diensten">Diensten</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#nieuws">Nieuws</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="header__contact">
+                    <a href="tel:0403414753" class="header__phone">
+                        <i class="fas fa-phone-alt"></i>
+                        <span>040 341 4753</span>
+                    </a>
+                </div>
+                <button class="header__toggle" aria-label="Menu openen">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Sectie -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero__content">
+                <div class="hero__text">
+                    <h2 class="hero__title">Betrouwbaar administratiekantoor voor particulieren en bedrijven</h2>
+                    <p class="hero__subtitle">Al meer dan 25 jaar uw partner in boekhouding en fiscaal advies</p>
+                    <div class="hero__buttons">
+                        <a href="#contact" class="btn btn--primary">Maak een afspraak</a>
+                        <a href="#diensten" class="btn btn--secondary">Onze diensten</a>
+                    </div>
+                </div>
+                <div class="hero__info">
+                    <div class="hero__info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <p>Nieuwendijk 22, Geldrop</p>
+                        </div>
+                    </div>
+                    <div class="hero__info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <p>Openingstijden: Ma-Vr 9:00-17:00</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero__shape">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#ffffff" fill-opacity="1" d="M0,224L80,218.7C160,213,320,203,480,202.7C640,203,800,213,960,202.7C1120,192,1280,160,1360,144L1440,128L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- Over Ons Sectie -->
+    <section id="over-ons" class="over-ons">
+        <div class="container">
+            <div class="section-header">
+                <h2>Wie zijn wij?</h2>
+                <div class="section-header__line"></div>
+            </div>
+            <div class="over-ons__content">
+                <div class="over-ons__image">
+                    <img src="/api/placeholder/400/320" alt="Kantoor van der Meeren" class="rounded-image">
+                </div>
+                <div class="over-ons__text">
+                    <p>Administratiekantoor van der Meeren is een kleinschalig familiebedrijf dat zich richt op bedrijven en particulieren met alle planning.</p>
+                    
+                    <p>Door de jarenlange ervaring met administratie en belastingen voor de zeer gewaardeerde en trouwe klantenkring, zijn wij in staat om te helpen voor bijna iedere behoefte aan hulp hebben.</p>
+                    
+                    <p>Neem gerust eens vrijblijvend <a href="#contact" class="inline-link">contact</a> op en ervaar wat wij voor u kunnen betekenen.</p>
+                    
+                    <div class="over-ons__geschiedenis">
+                        <h3>Onze geschiedenis</h3>
+                        <div class="tijdlijn">
+                            <div class="tijdlijn__item">
+                                <div class="tijdlijn__dot"></div>
+                                <div class="tijdlijn__content">
+                                    <span class="tijdlijn__jaar">1997</span>
+                                    <p>Tonny heeft het administratiekantoor opgericht aan huis (Hoeg Geldrop), waarna in 2002 Frank zijn intrede heeft gedaan.</p>
+                                </div>
+                            </div>
+                            <div class="tijdlijn__item">
+                                <div class="tijdlijn__dot"></div>
+                                <div class="tijdlijn__content">
+                                    <span class="tijdlijn__jaar">2017</span>
+                                    <p>Nadat ze het kantoor verhuisd hebben naar de Spaarnst, heeft Hans zich aangesloten bij het familiebedrijf.</p>
+                                </div>
+                            </div>
+                            <div class="tijdlijn__item">
+                                <div class="tijdlijn__dot"></div>
+                                <div class="tijdlijn__content">
+                                    <span class="tijdlijn__jaar">2023</span>
+                                    <p>In het voorjaar van 2023 is de nieuwe stap gezet, en zijn we verhuisd naar de Nieuwendijk, samen met de werknemers die we in de loop van de jaren "verzameld" hebben.</p>
+                                </div>
+                            </div>
+                            <div class="tijdlijn__item">
+                                <div class="tijdlijn__dot"></div>
+                                <div class="tijdlijn__content">
+                                    <span class="tijdlijn__jaar">2024</span>
+                                    <p>Frank heeft op 31 december 2024 zijn laatste officiële dag gehad. Nu gaat hij zich van zijn pensioen genieten. Zijn zoon zal een klein stapje terug en wat meer structureel betere werk. Ze gaan bij ons op kantoor aanwezig voor afspraken en het beantwoorden van uw vragen.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="over-ons__stats">
+                <div class="stats__item">
+                    <span class="stats__number" data-count="25">0</span><span>+</span>
+                    <p>Jaar ervaring</p>
+                </div>
+                <div class="stats__item">
+                    <span class="stats__number" data-count="500">0</span><span>+</span>
+                    <p>Tevreden klanten</p>
+                </div>
+                <div class="stats__item">
+                    <span class="stats__number" data-count="3">0</span>
+                    <p>Generaties expertise</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diensten Sectie -->
+    <section id="diensten" class="diensten">
+        <div class="container">
+            <div class="section-header">
+                <h2>Onze Diensten</h2>
+                <div class="section-header__line"></div>
+            </div>
+            <div class="diensten__grid">
+                <div class="dienst__card">
+                    <div class="dienst__icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3>Boekhouding</h3>
+                    <p>Wij verzorgen uw volledige administratie en boekhouding voor particulieren en bedrijven.</p>
+                    <a href="#contact" class="dienst__link">Meer informatie <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="dienst__card">
+                    <div class="dienst__icon">
+                        <i class="fas fa-file-invoice-dollar"></i>
+                    </div>
+                    <h3>Fiscaal Advies</h3>
+                    <p>Persoonlijk fiscaal advies voor uw specifieke situatie, zowel zakelijk als privé.</p>
+                    <a href="#contact" class="dienst__link">Meer informatie <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="dienst__card">
+                    <div class="dienst__icon">
+                        <i class="fas fa-tasks"></i>
+                    </div>
+                    <h3>Administratie</h3>
+                    <p>Wij nemen al uw administratieve taken uit handen zodat u zich kunt focussen op uw kernactiviteiten.</p>
+                    <a href="#contact" class="dienst__link">Meer informatie <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="dienst__card">
+                    <div class="dienst__icon">
+                        <i class="fas fa-hand-holding-usd"></i>
+                    </div>
+                    <h3>Belastingaangifte</h3>
+                    <p>Complete verzorging van uw belastingaangifte voor particulieren en ondernemers.</p>
+                    <a href="#contact" class="dienst__link">Meer informatie <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="dienst__card">
+                    <div class="dienst__icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Financiële Planning</h3>
+                    <p>Persoonlijk advies over uw financiële toekomst en planning voor zowel de korte als lange termijn.</p>
+                    <a href="#contact" class="dienst__link">Meer informatie <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="dienst__card">
+                    <div class="dienst__icon">
+                        <i class="fas fa-comments-dollar"></i>
+                    </div>
+                    <h3>Overige Diensten</h3>
+                    <p>Van advies bij bedrijfsovername tot fiscale constructies, neem contact op voor al uw vragen.</p>
+                    <a href="#contact" class="dienst__link">Meer informatie <i class="fas fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Sectie -->
+    <section id="team" class="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Ons Team</h2>
+                <div class="section-header__line"></div>
+                <p class="section-header__subtitle">Maak kennis met de gezichten achter Administratiekantoor van der Meeren</p>
+            </div>
+            <div class="team__grid">
+                <div class="team__card">
+                    <div class="team__photo">
+                        <img src="/api/placeholder/400/320" alt="Tonny van der Meeren" class="rounded-image">
+                    </div>
+                    <div class="team__info">
+                        <h3>Tonny van der Meeren</h3>
+                        <p class="team__functie">Boekhouder, FA/Fiscaal adviseur</p>
+                        <a href="mailto:tonny@vandermeeren.nl" class="team__email">tonny@vandermeeren.nl</a>
+                        <a href="#contact" class="btn btn--small">Neem contact op</a>
+                    </div>
+                </div>
+                <div class="team__card">
+                    <div class="team__photo">
+                        <img src="/api/placeholder/400/320" alt="Frank van der Meeren" class="rounded-image">
+                    </div>
+                    <div class="team__info">
+                        <h3>Frank van der Meeren</h3>
+                        <p class="team__functie">Boekhouder, FA/Fiscaal adviseur</p>
+                        <a href="mailto:frank@vandermeeren.nl" class="team__email">frank@vandermeeren.nl</a>
+                        <a href="#contact" class="btn btn--small">Neem contact op</a>
+                    </div>
+                </div>
+                <div class="team__card">
+                    <div class="team__photo">
+                        <img src="/api/placeholder/400/320" alt="Hans van der Meeren" class="rounded-image">
+                    </div>
+                    <div class="team__info">
+                        <h3>Hans van der Meeren</h3>
+                        <p class="team__functie">Boekhouder, FA/Fiscaal adviseur</p>
+                        <a href="mailto:hans@vandermeeren.nl" class="team__email">hans@vandermeeren.nl</a>
+                        <a href="#contact" class="btn btn--small">Neem contact op</a>
+                    </div>
+                </div>
+                <div class="team__card">
+                    <div class="team__photo">
+                        <img src="/api/placeholder/400/320" alt="Patricia van Goele" class="rounded-image">
+                    </div>
+                    <div class="team__info">
+                        <h3>Patricia van Goele</h3>
+                        <p class="team__functie">Administratief medewerkster</p>
+                        <a href="#contact" class="btn btn--small">Neem contact op</a>
+                    </div>
+                </div>
+                <div class="team__card">
+                    <div class="team__photo">
+                        <img src="/api/placeholder/400/320" alt="Linda Wouters" class="rounded-image">
+                    </div>
+                    <div class="team__info">
+                        <h3>Linda Wouters</h3>
+                        <p class="team__functie">Administratief medewerkster</p>
+                        <a href="#contact" class="btn btn--small">Neem contact op</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Nieuws Sectie -->
+    <section id="nieuws" class="nieuws">
+        <div class="container">
+            <div class="section-header">
+                <h2>Recente Berichten</h2>
+                <div class="section-header__line"></div>
+            </div>
+            <div class="nieuws__filters">
+                <button class="nieuws__filter active" data-filter="all">Alle berichten</button>
+                <button class="nieuws__filter" data-filter="belasting">Belasting</button>
+                <button class="nieuws__filter" data-filter="handleiding">Handleidingen</button>
+                <button class="nieuws__filter" data-filter="nieuws">Kantoornieuws</button>
+            </div>
+            <div class="nieuws__grid">
+                <div class="nieuws__card" data-category="handleiding">
+                    <div class="nieuws__icon">
+                        <i class="fas fa-book"></i>
+                    </div>
+                    <div class="nieuws__content">
+                        <span class="nieuws__date">April 2024</span>
+                        <h3>Handleidingen Krig Finance online</h3>
+                        <p>Nieuwe handleidingen voor het Krig Finance platform zijn nu beschikbaar op onze website.</p>
+                        <a href="#" class="nieuws__link">Lees meer <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="nieuws__card" data-category="belasting">
+                    <div class="nieuws__icon">
+                        <i class="fas fa-percentage"></i>
+                    </div>
+                    <div class="nieuws__content">
+                        <span class="nieuws__date">Maart 2024</span>
+                        <h3>Belangrijkste belasting wijzigingen 2024</h3>
+                        <p>Overzicht van de belangrijkste wijzigingen in de belastingwetgeving voor 2024.</p>
+                        <a href="#" class="nieuws__link">Lees meer <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="nieuws__card" data-category="nieuws">
+                    <div class="nieuws__icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="nieuws__content">
+                        <span class="nieuws__date">Februari 2024</span>
+                        <h3>Route naar de nieuwe locatie</h3>
+                        <p>Informatie over de route naar onze nieuwe locatie op Nieuwendijk 22 in Geldrop.</p>
+                        <a href="#" class="nieuws__link">Lees meer <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="nieuws__card" data-category="belasting">
+                    <div class="nieuws__icon">
+                        <i class="fas fa-calendar-check"></i>
+                    </div>
+                    <div class="nieuws__content">
+                        <span class="nieuws__date">Januari 2024</span>
+                        <h3>Verplichtdatum belastingaangifte</h3>
+                        <p>Informatie over de deadlines voor de belastingaangifte in het komende jaar.</p>
+                        <a href="#" class="nieuws__link">Lees meer <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+                <div class="nieuws__card" data-category="belasting">
+                    <div class="nieuws__icon">
+                        <i class="fas fa-piggy-bank"></i>
+                    </div>
+                    <div class="nieuws__content">
+                        <span class="nieuws__date">December 2023</span>
+                        <h3>IB 2021-2022 met meer dan alleen spaargeld?</h3>
+                        <p>Belangrijke informatie over de inkomstenbelastingaangifte 2021-2022 voor spaarders.</p>
+                        <a href="#" class="nieuws__link">Lees meer <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Belastingdienst Informatie Sectie -->
+    <section id="belastingdienst" class="belastingdienst">
+        <div class="container">
+            <div class="section-header">
+                <h2>Belastingdienst Informatie</h2>
+                <div class="section-header__line"></div>
+            </div>
+            <div class="belastingdienst__content">
+                <div class="belastingdienst__logo">
+                    <i class="fas fa-landmark"></i>
+                    <h3>Belastingdienst</h3>
+                </div>
+                <div class="belastingdienst__info">
+                    <div class="belastingdienst__item">
+                        <h4>Btw-aangifte én betaling eerste kwartaal 2025 uitgesteld tot 3 april 2025</h4>
+                        <p>Door IT-problemen bij internationale bedrijven liggen de systemen stil. Dit treft ook Nederlandse ondernemers die maakt u misschappij of op internationale markten actief zijn. Om hen tegemoet te komen heeft de Belastingdienst een uitstel bedrag per getroffen ondernemer ingevoerd, dus niet laste van uw winst brengen. Voor 2025 is dit bedrag vastgesteld op € 50,00.</p>
+                    </div>
+                    <div class="belastingdienst__item">
+                        <h4>Handboek Ondernemen 2025 gepubliceerd <span>1 april 2025</span></h4>
+                        <p>Het Handboek Ondernemen 2025 is beschikbaar. In het handboek staat informatie over de belastingen en fiscale regelgeving voor ondernemers over belastingen, bijdragen en premies.</p>
+                    </div>
+                </div>
+                <div class="belastingdienst__downloads">
+                    <a href="#" class="download-link">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>Handboek Ondernemen 2025</span>
+                    </a>
+                    <a href="#" class="download-link">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>Belastingtarieven 2025</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Sectie -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact</h2>
+                <div class="section-header__line"></div>
+                <p class="section-header__subtitle">Neem gerust vrijblijvend contact op met ons</p>
+            </div>
+            <div class="contact__content">
+                <div class="contact__info">
+                    <div class="contact__info-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div>
+                            <h3>Adres</h3>
+                            <p>Nieuwendijk 22, Geldrop</p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="fas fa-phone-alt"></i>
+                        <div>
+                            <h3>Telefoon</h3>
+                            <p><a href="tel:0403414753">040 341 4753</a></p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="fas fa-envelope"></i>
+                        <div>
+                            <h3>E-mail</h3>
+                            <p><a href="mailto:info@vandermeeren.nl">info@vandermeeren.nl</a></p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="fas fa-clock"></i>
+                        <div>
+                            <h3>Openingstijden</h3>
+                            <p>Maandag - Vrijdag: 9:00 - 17:00</p>
+                        </div>
+                    </div>
+                    <div class="contact__info-item">
+                        <i class="fas fa-id-card"></i>
+                        <div>
+                            <h3>KVK</h3>
+                            <p>87553646</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact__form-container">
+                    <form class="contact__form">
+                        <div class="form__group">
+                            <label for="naam">Naam*</label>
+                            <input type="text" id="naam" name="naam" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="email">E-mailadres*</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form__group">
+                            <label for="telefoon">Telefoonnummer</label>
+                            <input type="tel" id="telefoon" name="telefoon">
+                        </div>
+                        <div class="form__group">
+                            <label for="bericht">Uw bericht*</label>
+                            <textarea id="bericht" name="bericht" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn--primary">Versturen</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Kaart -->
+    <div class="map">
+        <iframe src="https://maps.google.com/maps?q=Nieuwendijk%2022,%20Geldrop&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" style="width: 100%; height: 400px;"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__content">
+                <div class="footer__info">
+                    <div class="footer__logo">
+                        <h2>Administratiekantoor<span> van der Meeren</span></h2>
+                        <p>Boekhouding en Fiscaal Advies</p>
+                    </div>
+                    <p>Administratiekantoor van der Meeren is een kleinschalig familiebedrijf dat zich richt op bedrijven en particulieren met alle planning.</p>
+                </div>
+                <div class="footer__links">
+                    <h3>Snelle Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#over-ons">Over Ons</a></li>
+                        <li><a href="#diensten">Diensten</a></li>
+                        <li><a href="#team">Team</a></li>
+                        <li><a href="#nieuws">Nieuws</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer__contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> Nieuwendijk 22, Geldrop</p>
+                    <p><i class="fas fa-phone-alt"></i> <a href="tel:0403414753">040 341 4753</a></p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@vandermeeren.nl">info@vandermeeren.nl</a></p>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>© 2025 Administratiekantoor van der Meeren. Alle rechten voorbehouden.</p>
+                <div class="footer__legal">
+                    <a href="#">Privacy beleid</a>
+                    <a href="#">Algemene voorwaarden</a>
+                </div>
+            </div>
+        </div>
+        <a href="#home" class="back-to-top" aria-label="Terug naar boven">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </footer>
+
+    <!-- Floating Contact Button -->
+    <div class="floating-contact">
+        <a href="tel:0403414753" class="floating-contact__phone">
+            <i class="fas fa-phone-alt"></i>
+        </a>
+        <a href="#contact" class="floating-contact__message">
+            <i class="fas fa-envelope"></i>
+        </a>
+    </div>
+
+    <!-- Cookie Consent -->
+    <div class="cookie-consent">
+        <div class="cookie-consent__content">
+            <p>Wij gebruiken cookies om uw ervaring op onze website te verbeteren. Door op "Accepteren" te klikken, gaat u akkoord met het gebruik van alle cookies.</p>
+            <div class="cookie-consent__buttons">
+                <button class="btn btn--secondary cookie-consent__accept">Accepteren</button>
+                <button class="btn btn--text cookie-consent__settings">Instellingen</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Custom JavaScript (we'll create this later) -->
+    <script src="main.js"></script>
+</body>
+</html>
